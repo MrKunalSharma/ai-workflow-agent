@@ -1,0 +1,84 @@
+# Core Python
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic[email]==2.5.3
+
+# FastAPI & Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+websockets==12.0
+httpx==0.26.0
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# Redis & Caching
+redis==5.0.1
+hiredis==2.3.2
+
+# Celery & Task Queue
+celery==5.3.4
+kombu==5.3.4
+flower==2.0.1
+
+# AI/ML
+openai==1.6.1
+langchain==0.1.0
+langchain-openai==0.0.5
+tiktoken==0.5.2
+transformers==4.36.2
+torch==2.1.2
+scikit-learn==1.3.2
+
+# Vector Database
+chromadb==0.4.22
+hnswlib==0.8.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==41.0.7
+
+# API Integrations
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.114.0
+notion-client==2.2.1
+
+# Monitoring & Metrics
+prometheus-client==0.19.0
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
+opentelemetry-instrumentation-fastapi==0.43b0
+
+# Logging
+python-json-logger==2.0.7
+structlog==24.1.0
+
+# Utils
+aiohttp==3.9.1
+httpx==0.26.0
+requests==2.31.0
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==22.0.0
+
+# Development
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Production specific
+gunicorn==21.2.0
+supervisor==4.2.5

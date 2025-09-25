@@ -1,0 +1,28 @@
+# Core AI/ML
+langchain
+langchain-openai
+tiktoken
+
+# API Integrations
+google-auth
+google-auth-oauthlib
+google-api-python-client
+notion-client
+
+# Web Framework
+fastapi
+uvicorn
+pydantic
+
+# Database
+sqlalchemy
+alembic
+
+# Utils
+python-dotenv
+pytest
+requests
+aiohttp
+
+# Monitoring
+python-json-logger

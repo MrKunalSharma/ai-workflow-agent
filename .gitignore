@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Environment
+.env
+*.env
+
+# Credentials
+config/gmail_credentials.json
+config/gmail_token.pickle
+config/*.json
+config/*.pickle
+
+# Database
+*.db
+*.sqlite
+chroma_db/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+

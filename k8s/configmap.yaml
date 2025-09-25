@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-workflow-config
+data:
+  app.conf: |
+    [app]
+    environment = production
+    log_level = INFO
+    workers = 4
+    
+    [rate_limits]
+    starter_emails_per_hour = 100
+    professional_emails_per_hour = 1000
+    enterprise_emails_per_hour = 10000
+    
+    [features]
+    websocket_enabled = true
+    auto_scaling = true
+    advanced_analytics = true
