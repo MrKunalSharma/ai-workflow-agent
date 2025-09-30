@@ -8,7 +8,7 @@
 
 An intelligent email processing system that automates customer communications with 75% accuracy using advanced rule-based processing and optional AI integration.
 
-> **🚀 Live Demo**: [Try the AI Workflow Agent](https://ai-workflow-agent.streamlit.app)
+> **🚀 Live Demo**: [Try the AI Workflow Agent](https://ai-workflow-agent-dwjystraek4gd3msry5wkt.streamlit.app/)
 
 ## 🌟 Key Features
 
